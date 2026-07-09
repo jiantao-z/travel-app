@@ -1,0 +1,20 @@
+# 前端构建产物
+node_modules/
+dist/
+.vite/
+
+# 前端环境变量（含敏感信息）
+.env
+.env.local
+
+# 日志文件
+*.log
+npm-debug.log*
+
+# 编辑器配置
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db

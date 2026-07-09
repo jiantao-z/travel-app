@@ -1,0 +1,109 @@
+/* ===== 智行规划师 - Bauhaus Geometric Design Tokens v3 ===== */
+
+:root {
+  /* ── Bauhaus 主色系 ── */
+  --bauhaus-red: #c45b3d;
+  --bauhaus-yellow: #d4a44a;
+  --bauhaus-blue: #2d5f8b;
+  --bauhaus-dark: #1a1a1a;
+  --bauhaus-teal: #3d8b7e;
+  --bauhaus-coral: #d4726a;
+
+  /* 主强调色 - 保留绿色作为UI主色 */
+  --accent: #5b8c6f;
+  --accent-hover: #4a7a5e;
+  --accent-soft: rgba(91, 140, 111, 0.08);
+  --accent-soft-hover: rgba(91, 140, 111, 0.14);
+
+  /* ── 中性色 ── */
+  --text-primary: #1a1a1a;
+  --text-secondary: #5c5c5c;
+  --text-muted: #8a8a8a;
+
+  /* ── 表面色 ── */
+  --surface-solid: #ffffff;
+  --surface-subtle: #f8f6f3;
+  --surface-raised: #ffffff;
+
+  /* ── 背景 ── */
+  --bg-root: #f4f1ec;
+  --bg-warm: #edeae5;
+
+  /* ── 边框（Bauhaus: 更明确的边界） ── */
+  --border-light: #e0dcd5;
+  --border-subtle: #ebe8e2;
+  --border-strong: #1a1a1a;
+
+  /* ── 阴影（更有层次） ── */
+  --shadow-xs: 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.08);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.10);
+  --shadow-geo: 4px 4px 0 rgba(0,0,0,0.08);
+
+  /* ── 圆角（Bauhaus: 直角为主） ── */
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-full: 0px;
+
+  /* ── 排版 ── */
+  --font-sans: 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+  --font-mono: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
+
+  /* ── 动效 ── */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 120ms;
+  --duration-normal: 250ms;
+  --duration-slow: 450ms;
+}
+
+/* ── 深色模式 ── */
+body.dark {
+  --accent: #6ba382;
+  --accent-hover: #5b9472;
+  --accent-soft: rgba(107, 163, 130, 0.12);
+  --accent-soft-hover: rgba(107, 163, 130, 0.2);
+
+  --text-primary: #e8e6e3;
+  --text-secondary: #9a9895;
+  --text-muted: #6b6966;
+
+  --surface-solid: #1c1c1c;
+  --surface-subtle: #1a1a1a;
+  --surface-raised: #242424;
+
+  --bg-root: #161616;
+  --bg-warm: #1e1e1c;
+
+  --border-light: #2c2c2a;
+  --border-subtle: #262624;
+  --border-strong: #e8e6e3;
+
+  --shadow-xs: 0 1px 2px rgba(0,0,0,0.3);
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.4);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.5);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.6);
+  --shadow-geo: 4px 4px 0 rgba(255,255,255,0.06);
+}
+
+/* ── 全局直角 ── */
+*, *::before, *::after {
+  border-radius: 0 !important;
+}
+
+/* ── 全局禁掉自动 hover 效果 ── */
+button:hover, a:hover, [role="button"]:hover, [onclick]:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+/* ── 减少动画 ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,276 @@
+/* ===== 智行规划师 - 深色模式 v3 (Bauhaus Geometric) ===== */
+
+body.dark {
+  background: #161616 !important;
+}
+
+body.dark #container {
+  background: #161616 !important;
+}
+
+/* ── TopBar ── */
+body.dark .top-bar {
+  background: #1c1c1c !important;
+  border-bottom-color: #333 !important;
+}
+body.dark .logo-mark {
+  background: #242424;
+  border-color: #555;
+}
+body.dark .logo-title { color: #e8e6e3 !important; }
+body.dark .top-btn {
+  background: #1c1c1c !important;
+  border-color: #333 !important;
+  color: #e8e6e3 !important;
+}
+body.dark .top-btn:hover {
+  background: #242424 !important;
+  border-color: #555 !important;
+}
+body.dark .btn-ai {
+  background: #2a2a2a !important;
+  border-color: #2a2a2a !important;
+}
+body.dark .btn-ai:hover {
+  background: #d4726a !important;
+  border-color: #d4726a !important;
+}
+body.dark .btn-explore.active {
+  background: #2d5f8b !important;
+  border-color: #2d5f8b !important;
+}
+
+/* ── SideBar ── */
+body.dark .side-btn {
+  background: #1c1c1c !important;
+  border-color: #333 !important;
+  color: #e8e6e3 !important;
+}
+body.dark .side-btn:hover {
+  background: #242424 !important;
+}
+body.dark .avatar-ring {
+  background: #1c1c1c;
+  border-color: #555;
+}
+body.dark .user-label { color: #9a9895 !important; }
+body.dark .divider-line, body.dark .divider-dot { background: #444; }
+body.dark .footer-stat { background: #0d0d0d; }
+
+/* ── SearchBar ── */
+body.dark .search-box {
+  background: #242424 !important;
+  border-color: #333 !important;
+  color: #e8e6e3 !important;
+}
+body.dark .search-box:focus {
+  background: #2a2a2a !important;
+  border-color: #555 !important;
+}
+body.dark .search-box::placeholder { color: #6b6966 !important; }
+body.dark .search-geo-left { background: #d4726a; }
+body.dark .search-suggestions {
+  background: #1c1c1c !important;
+  border-color: #333 !important;
+  box-shadow: 4px 4px 0 rgba(0,0,0,0.5) !important;
+}
+body.dark .suggest-item { color: #c5c3c0 !important; border-bottom-color: #2a2a2a !important; }
+body.dark .suggest-item:hover { background: #242424 !important; }
+body.dark .suggest-item-name { color: #e8e6e3 !important; }
+body.dark .suggest-item-desc { color: #6b6966 !important; }
+body.dark .suggest-dot { background: #555; }
+
+/* ── LayerCategoryBar ── */
+body.dark .category-btn {
+  background: #1c1c1c !important;
+  border-color: #333 !important;
+  color: #e8e6e3 !important;
+}
+body.dark .category-btn:hover,
+body.dark .category-btn.active {
+  background: #242424 !important;
+  border-color: #555 !important;
+}
+
+/* ── CategoryFilterPanel ── */
+body.dark .filter-panel {
+  background: #1c1c1c !important;
+  border-color: #333 !important;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6) !important;
+}
+body.dark .filter-panel .section-title { color: #e8e6e3 !important; }
+body.dark .option-btn {
+  background: #242424 !important;
+  border-color: #333 !important;
+  color: #e8e6e3 !important;
+}
+body.dark .option-btn.active,
+body.dark .option-btn:hover {
+  background: rgba(212, 114, 106, 0.15) !important;
+  border-color: #d4726a !important;
+  color: #d4726a !important;
+}
+body.dark .reset-btn {
+  background: #242424 !important;
+  border-color: #333 !important;
+  color: #e8e6e3 !important;
+}
+
+/* ── PointView ── */
+body.dark #pointview {
+  background: #1c1c1c !important;
+  border-color: #333 !important;
+  color: #e8e6e3 !important;
+}
+
+/* ── LocateWidget ── */
+body.dark .locate-button {
+  background: #1c1c1c !important;
+  border-color: #333 !important;
+  color: #e8e6e3 !important;
+}
+body.dark .locate-button:hover {
+  background: var(--accent) !important;
+  color: #fff !important;
+}
+
+/* ── ExploreView ── */
+body.dark .explore-container { background: #161616 !important; }
+body.dark .explore-topbar {
+  background: #1c1c1c !important;
+  border-bottom-color: #333 !important;
+}
+body.dark .city-select { color: #e8e6e3 !important; }
+body.dark .guide-card {
+  background: #1c1c1c !important;
+  border-color: #333 !important;
+}
+body.dark .guide-card:hover { border-color: #555 !important; }
+body.dark .guide-cover { background: #242424; }
+body.dark .guide-title { color: #e8e6e3 !important; }
+body.dark .guide-body { color: #c5c3c0 !important; }
+body.dark .guide-data-val { color: #e8e6e3 !important; }
+body.dark .guide-data-row { border-top-color: #2a2a2a; }
+body.dark .guide-save-btn { background: #2a2a2a; }
+body.dark .detail-modal {
+  background: #1c1c1c !important;
+  border-color: #333 !important;
+}
+body.dark .detail-title { color: #e8e6e3 !important; }
+body.dark .detail-stat-ring { border-color: #555; }
+body.dark .detail-stat-big { color: #e8e6e3 !important; }
+body.dark .detail-pois {
+  background: #1a1a1a;
+  border-left-color: #d4726a;
+}
+body.dark .detail-poi-chip {
+  background: #242424; border-color: #333; color: #e8e6e3;
+}
+body.dark .detail-action {
+  background: #242424; border-color: #333; color: #e8e6e3;
+}
+body.dark .detail-action:hover { border-color: #555; }
+body.dark .detail-action--primary { background: #2a2a2a; border-color: #2a2a2a; }
+body.dark .detail-action--primary:hover { background: #d4726a; border-color: #d4726a; }
+body.dark .chip { color: #e8e6e3; }
+body.dark .chip:hover { background: #242424; border-color: #555; }
+body.dark .chip--active { background: #e8e6e3; color: #1c1c1c; border-color: #e8e6e3; }
+body.dark .category-chips .chip--active { background: #e8e6e3; color: #1c1c1c; }
+
+/* ── 弹窗 & Element Plus ── */
+body.dark .modal { background-color: rgba(0,0,0,0.65) !important; }
+body.dark .modal-content {
+  background: #1c1c1c !important;
+  border-color: #333 !important;
+  box-shadow: 0 12px 48px rgba(0,0,0,0.6) !important;
+}
+body.dark .modal-header {
+  border-bottom-color: #2a2a2a !important;
+  background: #1a1a1a !important;
+}
+body.dark .modal-title { color: #e8e6e3 !important; }
+body.dark .modal-body { color: #c5c3c0 !important; }
+body.dark .modal-footer { border-top-color: #2a2a2a !important; }
+body.dark .close { color: #6b6966 !important; }
+body.dark .close:hover { color: #e8e6e3 !important; }
+body.dark .modal-btn-secondary {
+  background: #2c2c2c !important;
+  color: #c5c3c0 !important;
+  border-color: #333 !important;
+}
+body.dark .modal-btn-secondary:hover {
+  background: #363636 !important;
+  color: #e8e6e3 !important;
+}
+
+/* 弹窗中卡片 */
+body.dark .bg-gray-50 { background: #1e1e1e !important; border-color: #2a2a2a !important; }
+body.dark .bg-emerald-50 { background: rgba(30, 55, 45, 0.6) !important; border-color: rgba(107,163,130,0.15) !important; }
+body.dark .bg-emerald-100 { background: rgba(35, 65, 50, 0.7) !important; border-color: rgba(107,163,130,0.25) !important; }
+body.dark .bg-white { background: #1e1e1e !important; border-color: #2a2a2a !important; }
+
+/* 文本 */
+body.dark .text-gray-400 { color: #6b6966 !important; }
+body.dark .text-gray-500 { color: #9a9895 !important; }
+body.dark .text-gray-600 { color: #9a9895 !important; }
+body.dark .text-gray-700 { color: #c5c3c0 !important; }
+body.dark .text-gray-800 { color: #e3e2e0 !important; }
+
+/* 输入框 */
+body.dark input,
+body.dark textarea,
+body.dark select {
+  background: #242424 !important;
+  border-color: #333 !important;
+  color: #e8e6e3 !important;
+}
+body.dark input::placeholder,
+body.dark textarea::placeholder { color: #6b6966 !important; }
+body.dark input:focus,
+body.dark textarea:focus,
+body.dark select:focus {
+  border-color: #d4726a !important;
+  box-shadow: 0 0 0 3px rgba(212, 114, 106, 0.1) !important;
+}
+
+/* Element Plus */
+body.dark .el-dialog {
+  background: #1c1c1c !important;
+  border: 1px solid #333 !important;
+}
+body.dark .el-dialog__header { border-bottom-color: #2a2a2a !important; }
+body.dark .el-dialog__title { color: #e8e6e3 !important; }
+body.dark .el-input__inner {
+  background: #242424 !important;
+  border-color: #333 !important;
+  color: #e8e6e3 !important;
+}
+body.dark .el-select .el-input__inner {
+  background: #242424 !important;
+  border-color: #333 !important;
+  color: #e8e6e3 !important;
+}
+body.dark .el-select-dropdown {
+  background: #1c1c1c !important;
+  border-color: #333 !important;
+}
+body.dark .el-select-dropdown__item { color: #c5c3c0 !important; }
+body.dark .el-select-dropdown__item.hover,
+body.dark .el-select-dropdown__item:hover {
+  background: rgba(212, 114, 106, 0.12) !important;
+  color: #d4726a !important;
+}
+
+/* 测量工具 */
+body.dark #measurementWidget {
+  background: #1c1c1c !important;
+  border-color: #333 !important;
+  color: #e8e6e3 !important;
+}
+
+/* Toast */
+body.dark .Vue-Toastification__toast {
+  background: #1c1c1c !important;
+  color: #e8e6e3 !important;
+  border: 1px solid #333 !important;
+}

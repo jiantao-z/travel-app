@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智行规划师 - 智能旅游路线设计</title>
+    <meta name="description" content="智行规划师，智能旅行路线规划与可视化平台，提供景点、酒店、美食一站式探索与行程管理。">
+    <meta name="keywords" content="旅行规划,旅游地图,路线设计,景点探索">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700;800;900&display=swap');
+
+        :root {
+            --font-sans: 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+            --font-mono: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background: #f4f1ec;
+            color: #1a1a1a;
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body.dark {
+            background: #161616;
+            color: #e8e6e3;
+        }
+
+        #app {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+    <!-- 网页图标 -->
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+</head>
+
+<body>
+    <!-- Vue应用挂载点 -->
+    <div id="app"></div>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
