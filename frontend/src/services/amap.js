@@ -5,9 +5,9 @@
 
 import AMapLoader from '@amap/amap-jsapi-loader'
 
-// 高德安全密钥（Web端 JS API 需要）
-// 请在前端 .env 文件中配置 VITE_AMAP_JS_KEY
+// 高德 JS API Key 与安全密钥（Web端 JS API 需要，均在前端 .env 中配置）
 const AMAP_KEY = import.meta.env.VITE_AMAP_JS_KEY || ''
+const AMAP_SECURITY_CODE = import.meta.env.VITE_AMAP_SECURITY_CODE || ''
 const AMAP_VERSION = '2.0'
 
 let AMapInstance = null
@@ -22,6 +22,7 @@ export async function loadAmap() {
 
   loadPromise = AMapLoader.load({
     key: AMAP_KEY,
+    securityJsCode: AMAP_SECURITY_CODE,
     version: AMAP_VERSION,
     plugins: [
       'AMap.Geolocation',
